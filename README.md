@@ -4,7 +4,9 @@
 
 This project demonstrates the application of clustering algorithms (K-means and K-medoids) on image embeddings from the Oxford-IIIT Pet Dataset. We visualize the clustering process and compare the results using various dimensionality reduction techniques.
 
-
+<a target="_blank" href="https://colab.research.google.com/github/CristianLazoQuispe/ClusteringImageEmbeddings/blob/main/01.Demo%20image%20embeddings.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ## Dataset
 
