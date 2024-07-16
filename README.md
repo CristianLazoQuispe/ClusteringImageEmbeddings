@@ -1,4 +1,4 @@
-# Clustering Image Embeddings
+# Clustering Image Embeddings with ViT
 
 ## Project Overview
 
@@ -10,7 +10,7 @@ This project demonstrates the application of clustering algorithms (K-means and 
 
 We use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images of cats and dogs of different breeds, in total 37 classes.
 
-I have created a dataset with embeddings and augentation to increase the number of images 3 times https://huggingface.co/datasets/CristianLazoQuispe/oxford-iiit-pet-aug-embeddings.
+I have created a dataset with embeddings and augentation to increase the number of images 3 times https://huggingface.co/datasets/CristianLazoQuispe/oxford-iiit-pet-aug-embeddings. I used ViT model to generate embeddins 'vit-base-patch16-224-in21k'.
 
 
 ![Dataset with augmentation](images_augmentation.png)
