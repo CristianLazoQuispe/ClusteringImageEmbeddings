@@ -4,16 +4,26 @@
 
 This project demonstrates the application of clustering algorithms (K-means and K-medoids) on image embeddings from the Oxford-IIIT Pet Dataset. We visualize the clustering process and compare the results using various dimensionality reduction techniques.
 
+
+
+## Dataset
+
+We use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images of cats and dogs of different breeds, in total 37 classes.
+
+I have created a dataset with embeddings and augentation to increase the number of images 3 times https://huggingface.co/datasets/CristianLazoQuispe/oxford-iiit-pet-aug-embeddings.
+
+
 ## Repository Structure
-├── 01.Demo image embeddings.ipynb
-├── animation_kmeans.gif
-├── animation_kmeans.mp4
-├── animation_kmedoids.gif
-├── animation_kmedoids.mp4
-├── LICENSE
-├── README.md
-├── requirements.txt
-└── train_tsne_kmeans.png
+
+    ├── 01.Demo image embeddings.ipynb
+    ├── animation_kmeans.gif
+    ├── animation_kmeans.mp4
+    ├── animation_kmedoids.gif
+    ├── animation_kmedoids.mp4
+    ├── LICENSE
+    ├── README.md
+    ├── requirements.txt
+    └── train_tsne_kmeans.png
 
 
 ## Key Features
@@ -50,10 +60,6 @@ This animation demonstrates the K-medoids algorithm, highlighting how it differs
 
     jupyter notebook "01.Demo image embeddings.ipynb"
 
-
-## Dataset
-
-We use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/), which contains images of cats and dogs of different breeds.
 
 ## Results
 
