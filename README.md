@@ -13,6 +13,8 @@ We use the [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/
 I have created a dataset with embeddings and augentation to increase the number of images 3 times https://huggingface.co/datasets/CristianLazoQuispe/oxford-iiit-pet-aug-embeddings.
 
 
+![Dataset with augmentation](images_augmentation.png)
+
 ## Repository Structure
 
     ├── 01.Demo image embeddings.ipynb
@@ -42,8 +44,8 @@ I have created a dataset with embeddings and augentation to increase the number 
     <td align="center">K-medoids Clustering</td>
   </tr>
   <tr>
-    <td><img src="animation_kmeans.gif" alt="Input GIF" width="500"></td>
-    <td><img src="animation_kmedoids.gif" alt="Output GIF" width="500"></td>
+    <td><img src="animation_kmeans.gif" alt="Input GIF" width="400"></td>
+    <td><img src="animation_kmedoids.gif" alt="Output GIF" width="400"></td>
   </tr>
 </table>
 
@@ -63,7 +65,13 @@ This animation demonstrates the K-medoids algorithm, highlighting how it differs
 
 ## Results
 
-The `train_tsne_kmeans.png` image shows the final clustering results using t-SNE for dimensionality reduction and K-means for clustering.
+The `initializations.png` image shows different initializations techniques.
+
+![initializations](initializations.png)
+
+The `results_kmeans.png` image shows the final clustering results using t-SNE for dimensionality reduction and K-means for clustering.
+
+![results_kmeans](results_kmeans.png)
 
 ## Future Work
 
